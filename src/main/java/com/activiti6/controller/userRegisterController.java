@@ -84,7 +84,7 @@ public class userRegisterController {
 		System.out.println("user register is started. ID:" + ins.getId());
 		return new MSG("sucess");
 	}
-
+    // zzsnb
 	@ApiOperation("get manager task list")
 	@RequestMapping(value = "/managertasklist", produces = {
 			"application/json;charset=UTF-8" }, method = RequestMethod.POST)
